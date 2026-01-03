@@ -1,0 +1,13 @@
+binds {
+
+	Mod+Alt+C { spawn "quickshell" "-p" "/home/shibaaa/Widgets/clock-v2.qml"; }
+	Mod+Alt+G { spawn "quickshell" "-p" "/home/shibaaa/Widgets/randomGif.qml"; }
+	Ctrl+Space { spawn-sh "pkill ibus-ui-gtk3 || ibus start"; }
+	Mod+Return { spawn-sh "poweroff"; }
+
+
+	Mod+Alt+A { spawn "quickshell" "-p" "/home/shibaaa/Widgets/randomArt.qml"; }
+	Mod+Alt+S { spawn "quickshell" "-p" "/home/shibaaa/Widgets/bigHertaspin.qml"; }
+	Mod+Alt+B { spawn-sh "QML_XHR_ALLOW_FILE_READ=1 quickshell -p /home/shibaaa/Widgets/Blue-Archive/blue-archive.qml"; }
+	
+}
