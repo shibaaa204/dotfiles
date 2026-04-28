@@ -1,0 +1,40 @@
+{
+	"logo": {
+        "source": "arch_small", 
+        "padding": {
+	        "top": 1
+		},
+    },
+    "display": {
+        "separator": "  "
+    },
+    "modules": [
+	"break",
+	"break",
+        {
+            "type": "os",
+            "key": "os    ",
+        },
+        {
+            "type": "kernel",
+            "key": "kernel",
+        },
+		{
+           "type": "terminal",
+           "key": "term  ",
+        },        
+        {
+            "type": "packages",
+            "key": "pkgs  ",
+        },
+        {
+            "type": "uptime",
+            "key": "uptime",
+        },
+        {
+            "type": "memory",
+            "key": "memory",
+        },
+        "break",
+    ]
+}
